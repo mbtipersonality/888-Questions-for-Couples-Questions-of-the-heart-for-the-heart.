@@ -6,8 +6,8 @@ function App() {
   return (
     <div className='App'>
       <ul>
-        {questions.map( q => {
-          return <li>{q}</li>
+        {questions.map( (q, index) => {
+          return <li key={index}>{index}. {q}</li>
         })}
       </ul>
     </div>
