@@ -7,7 +7,7 @@ function App() {
     <div className='App'>
       <ul>
         {questions.map( (q, index) => {
-          return <li key={index}>{index}. {q}</li>
+          return <li key={index+1}>{index}. {q}</li>
         })}
       </ul>
     </div>
