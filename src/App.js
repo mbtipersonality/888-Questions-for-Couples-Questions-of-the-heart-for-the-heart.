@@ -6,9 +6,9 @@ function App() {
   return (
     <div className='App'>
       <ul>
-        questions.map(q=>{
+        {questions.map(q=>{
           <li>q</li>
-        })
+        })}
       </ul>
     </div>
   )
