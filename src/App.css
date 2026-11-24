@@ -13,6 +13,8 @@
 }
 
 .App li{
-  font-size: 2rem
+  max-width: 65ch;            /* Optimal 50–75 characters per line */
+  margin-bottom: 1.25em;
+  overflow-wrap: break-word;
 }
 
