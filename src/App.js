@@ -4,7 +4,7 @@ import questions from './search.js'
 
 function App() {
   return (
-    <div className='App' onClick={handleClick}>
+    <div className='App'>
       <ul>
         questions.map(q=>{
           <li>q</li>
