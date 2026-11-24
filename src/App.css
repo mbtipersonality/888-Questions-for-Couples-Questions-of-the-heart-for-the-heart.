@@ -4,7 +4,9 @@
 
 .App h1 {
   text-align: center;
- padding: 2rem
+ margin-top: 1.75em;
+  margin-bottom: 0.5em;
+ line-height: 1.25
 }
 
 .App li{
