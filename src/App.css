@@ -3,7 +3,6 @@
  line-height: 1.6;
  color: #1f2937;
  padding: 2rem 1.25rem;
- font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
 }
 
 .App h1 {
@@ -14,8 +13,6 @@
 }
 
 .App li{
-  max-width: 65ch;            /* Optimal 50–75 characters per line */
   margin-bottom: 1.25rem;
-  overflow-wrap: break-word;
 }
 
